@@ -1,3 +1,3 @@
 china = ['beijing', 'tianjin', ['chuzhou', 'hefei']]
-
-print(china)
+if isinstance(china, list):
+    print(china)
